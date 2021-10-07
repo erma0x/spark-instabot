@@ -3,14 +3,14 @@ Personal instagram bot for automating social media manager stuff.
 
 
 ## Library installation
-### For Mac and Linux Uses
-pip3 install instabot-py
-### For Windows Users
-pip install instabot-py
+#### For Mac and Linux Uses
+- pip3 install instabot-py
+#### For Windows Users
+- pip install instabot-py
 
 
 
-### What the bot can do
+## What the bot can do
     - Login to your Instagram account
     - View Followers and Account you are following
     - Like Photo or Video
