@@ -1,6 +1,36 @@
 from instabot import Bot
 import config
 
+strategy_description="""
+
+-------------- STRATEGIA ----------------------------------------------------
+
+
+1)  Inserire manualmente lista dei concorrenti in config.py.
+
+2)  Il bot deve fare data scraping per mettere tutti gli utenti che seguono
+    i concorrenti su un file chimato whitelist.txt. 
+
+3)  Cancello i doppioni degli username dalla lista dei whitelist.txt 
+
+4)  Metti follow ed un like a tutti gli utenti che seguono i concorrenti
+    con una frequenza di 5 ogni ora ad intervalli casuali.
+
+
+--------------- REGOLE ----------------------------------------------------
+ 
+Ogni follower che ho gia' seguito non lo voglio riseguire, quindi 
+appena faccio follow a qualcuno lo cancello da whitelist.txt e lo metto su blacklist.txt
+
+Ogni 5 giorni smetti di seguire chi non ti segue.
+
+
+Non lavorare MAI dalle 19:00 alle 9:00. O di sabato e di domenica.
+----------------------------------------------------------------------------
+
+"""
+
+
 def main():
     bot = Bot(
                 proxy=None,
@@ -32,6 +62,7 @@ def main():
 
     bot.login(username=config.username, password=config.password)
 
+    bot.unfollow_non_followers()
 
 
 
