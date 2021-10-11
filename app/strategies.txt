@@ -1,0 +1,40 @@
+-------------- STRATEGIA ALPHA ----------------------------------------------------
+
+
+1)  Inserire manualmente lista dei concorrenti in config.py.
+
+2)  Il bot deve fare data scraping per mettere tutti gli utenti che seguono
+    i concorrenti su un file chimato whitelist.txt. 
+
+3)  Cancello i doppioni degli username dalla lista dei whitelist.txt 
+
+4)  Metti follow ed un like a tutti gli utenti che seguono i concorrenti
+    con una frequenza di 5 ogni ora ad intervalli casuali.
+
+
+--------------- REGOLE ----------------------------------------------------
+ 
+Ogni follower che ho gia' seguito non lo voglio riseguire, quindi 
+appena faccio follow a qualcuno lo cancello da whitelist.txt e lo metto su blacklist.txt
+
+Ogni 5 giorni smetti di seguire chi non ti segue.
+
+
+Non lavorare MAI dalle 19:00 alle 9:00. O di sabato e di domenica.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------- STRATEGIA BETA ----------------------------------------------------
+
+Sostanzialmente il bot consiste nel taggare persone, puoi scegliere liberamente chi taggare e dove taggarli. Il punto è semplice: a seconda dell'obbiettivo si può cercare di trovare gli utenti più in target possibile per quello che ti interessa
+Per esempio se devi sponsorizzare un rapper puoi prendere i follower di un rapper simile
+O i like a una sua foto. Il fatto è che finché si parla di cose normali è semplicemente un'alternativa alle ads di Instagram che costa di meno, al lato pratico in entrambi i casi raggiungi gente in target. Ma la differenza sostanziale è che non devi passare nessun check da Instagram. Puoi sponsorizzare robe un po' losche (tipo come nel mio caso, quel genere di cose spesso viene rifiutato da Instagram)
+Poi per dire il mio amico usa sto metodo per vendere follower
+Ha studiato bene come ottimizzarlo per quello, li vende a 40€/1000 e arrivano 100 al giorno per ora. Follower reali, per lo più minorenni
+Potenzialmente puoi farci qualsiasi cosa, è solo questione di studiare come
+In caso se qualcuno sarebbe anche lontanamente interessato se mi parla di quello che fa/vuole fare posso studiare possibili idee e fare effettivamente una prova

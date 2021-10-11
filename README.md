@@ -2,6 +2,9 @@
 Personal instagram bot for automating social media manager stuff.
 
 
+## Docs
+https://instagrambot.github.io/docs/it/
+
 ## Installation
 #### For Mac and Linux Uses
      pip3 install instabot-py
@@ -27,5 +30,3 @@ Personal instagram bot for automating social media manager stuff.
 ![Alt text](img/unlike_methods.png?raw=true )
 ![Alt text](img/comments.png?raw=true)
 
-## Documentation
-https://instagrambot.github.io/docs/it/
