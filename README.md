@@ -1,5 +1,5 @@
-# erma0x Instagram Bot
-Personal instagram bot for automating social media manager stuff.
+# Spark Instagram Bot
+Personal instagram bot for automating social media manager stuff and automatic follow up.
 
 ## Docs
 https://instagrambot.github.io/docs/it/
