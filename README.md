@@ -1,17 +1,17 @@
 # erma0x Instagram Bot
 Personal instagram bot for automating social media manager stuff.
 
-
 ## Docs
 https://instagrambot.github.io/docs/it/
 
 ## Installation
 #### For Mac and Linux Uses
      pip3 install instabot-py
+
 #### For Windows Users
      pip install instabot-py
 
-## Update library
+## Intall & Update library
      pip install -U instabot
 
 
