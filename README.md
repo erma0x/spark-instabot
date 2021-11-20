@@ -1,8 +1,10 @@
 # Spark Instagram Bot
 Personal instagram bot for automating social media manager stuff and automatic follow up.
 
-## Docs
-https://instagrambot.github.io/docs/it/
+## 3rd party library
+- https://instagrambot.github.io/docs/it/
+- https://instagrambot.github.io/docs/it/How_to_use.html
+- https://gist.github.com/DusanMadar/8d11026b7ce0bce6a67f7dd87b999f6b
 
 ## Installation
 
