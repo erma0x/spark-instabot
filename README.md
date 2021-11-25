@@ -8,27 +8,56 @@ Personal instagram bot for automating social media manager stuff and automatic f
 
 ## Installation
 
-1. python3 -m venv venv
+1. Create Virtual enviroment
+``` bash 
+python3 -m venv venv
+```
 
-2. source venv/bin/activate
+2. Activate the enviroment          
+``` bash
+source venv/bin/activate
+```
 
-3. For Mac and Linux Uses
-     pip3 install instabot-py
+3. Installation for Mac and Linux
+``` bash
+pip3 install instabot-py
+```
+3. Installation for Windows
 
-3. For Windows Users
-     pip install instabot-py
+``` bash
+pip install instabot-py
+```
+4. Install the requirements 
+``` bash
+pip3 install -r requirements.txt
+```
 
-4. Intall & Update library
-     pip install -U instabot
+5. Update library
+``` bash 
+pip install -U instabot 
 
-5. pip3 install -r requirements.txt
+``` 
 
-6. service privoxy start
+6. If you don't have it you have to download tor and privoxy. (Debian)
+``` bash 
+sudo upgrade & update | sudo apt install tor | sudo apt install privoxy 
 
-8. service tor start
+``` 
 
-10. venv/bin/python3 robot/spark-instabot.py
+7. Activate the proxies and Tor
+``` bash 
+service privoxy start | service tor start 
 
+```
+8. Create .env file inside /robot/ with the following informations: <br>
+Username = "MY_USERNAME" <br>
+Password = "MY_PASSSWORD" <br>
+
+8. Run the Robot in a server
+``` bash 
+venv/bin/python3 robot/spark-instabot.py myCompetitorUsername
+
+```
 
 
 ## What the bot can do
