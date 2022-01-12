@@ -5,7 +5,6 @@ __pycache__/
 
 followup_strategy.txt
 
-
 # C extensions
 *.so
 # Distribution / packaging

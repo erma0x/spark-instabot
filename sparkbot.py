@@ -14,19 +14,19 @@ def main():
         sys.path.append(os.path.join(sys.path[0], "../"))
         
         parser = argparse.ArgumentParser(add_help=True)
-        parser.add_argument("-u", type=str, help="username")
-        parser.add_argument("-p", type=str, help="password")
-        parser.add_argument("-proxy", type=str, help="proxy")
+        # parser.add_argument("-u", type=str, help="username")
+        # parser.add_argument("-p", type=str, help="password")
+
         parser.add_argument("competitor_username", type=str, nargs="+", help="your competitor username")
         args = parser.parse_args()
         
-        bot = Bot(max_follows_per_day=3,
-                max_likes_per_day=20,
-                max_likes_to_like = 150,
-                filter_users=True,
-                max_followers_to_follow=3000,
-                min_followers_to_follow=10,
-                max_following_to_block=2000
+        bot = Bot(max_follows_per_day=5,
+                max_likes_per_day=2,
+                max_likes_to_like = 2,
+                filter_users=False,
+                max_followers_to_follow=40,
+                min_followers_to_follow=1,
+                max_following_to_block=1
                 )
 
         bot.login(username=USERNAME, password=PASSWORD)

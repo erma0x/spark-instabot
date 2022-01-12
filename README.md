@@ -44,9 +44,10 @@ sudo upgrade & update | sudo apt install tor | sudo apt install privoxy
 
 ``` 
 
-7. Activate the proxies and Tor
+7. Activate insta avoiders
 ``` bash 
-service privoxy start | service tor start 
+sudo surfshark-vpn
+service privoxy start
 
 ```
 8. Create .env file inside /robot/ with the following informations: <br>
@@ -58,7 +59,12 @@ Password = "MY_PASSSWORD" <br>
 venv/bin/python3 robot/spark-instabot.py myCompetitorUsername
 
 ```
+9. Activate insta avoiders
+``` bash 
+sudo surfshark-vpn
+service privoxy start
 
+```
 
 ## What the bot can do
 - Login to your Instagram account
