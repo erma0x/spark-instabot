@@ -2,15 +2,13 @@ import argparse
 import os
 import sys
 from params import * 
-from dotenv import load_dotenv
+
+from instabot import Bot
 
 def main():
 
     # try:
-        from instabot import Bot
-        load_dotenv()
-        USERNAME = os.getenv('Username')
-        PASSWORD = os.getenv('Password')
+
         sys.path.append(os.path.join(sys.path[0], "../"))
         
         parser = argparse.ArgumentParser(add_help=True)
@@ -29,10 +27,10 @@ def main():
                 max_following_to_block=1
                 )
 
-        bot.login(username=USERNAME, password=PASSWORD)
+        bot.login(username=Username, password=PAssword)
 
         print('Login - OK')
-        print('username',USERNAME, 'password',PASSWORD)
+        print('username',Username, 'password',PAssword)
 
         for username in args.users:
             bot.follow_followers(username)
